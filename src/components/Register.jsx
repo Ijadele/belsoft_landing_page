@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Register = () => {
   return (
-    <section className="pt-[3rem] md:pt-[5rem]">
+    <section className="pt-[3rem] md:pt-[2rem]">
       <div>
         {/* Header Section */}
         <h1 className="text-center text-2xl font-bold md:text-3xl">

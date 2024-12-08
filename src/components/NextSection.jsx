@@ -8,7 +8,7 @@ const NextSection = ({ paraShow, arrow, group, paraText }) => {
     <section>
       {/* Section 1 */}
       <div
-        className="relative w-full translate-y-[-5%] bg-center bg-no-repeat px-6 py-[4rem] md:bg-[url('/line2.png')] md:px-[3.5rem] md:py-[4rem]"
+        className="relative w-full translate-y-[-5%] bg-center bg-no-repeat px-6 py-[4rem] md:bg-[url('/line2.png')] md:px-[3.5rem] md:pt-[7rem]"
         style={{
           backgroundSize: "100% 100%",
           backgroundPosition: "top center",

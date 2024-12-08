@@ -27,7 +27,7 @@ const Testimonial = () => {
       {/* Header Section */}
       <h1 className="mb-3 text-xl font-bold sm:text-2xl">What Do Our Attendees Have To Say?</h1>
       <div className="mb-4 flex items-center justify-center">
-        <p className="text-xs font-normal text-[#8E8E93] sm:text-sm">Well, See For Yourself!</p>
+        <p className="sm:-text-sm text-xs font-normal text-[8E8E93] md:px-[33.5rem]">Well, See For Yourself!</p>
         <div className="flex gap-2">
           <img src="/carouselBack.png" alt="Previous" className="h-8 w-8 cursor-pointer sm:h-12 sm:w-12" />
           <img src="/carouselNext.png" alt="Next" className="h-8 w-8 cursor-pointer sm:h-12 sm:w-12" />

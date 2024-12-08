@@ -49,7 +49,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="mx-auto max-w-[90rem] py-[5rem]">
+    <div className="mx-auto max-w-[90rem] py-[1rem] md:py-[2.5rem]">
       <h1 className="mb-6 text-left text-3xl font-bold">FAQs</h1>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         {faqItems.map((faqItem, index) => (

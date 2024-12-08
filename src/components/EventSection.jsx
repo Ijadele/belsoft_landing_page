@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const EventSection = ({ paraText, group }) => {
   return (
-    <section>
+    <section className="py-[4rem]">
       <div
         className="bg-no-repeat px-6 py-8 md:px-[3.5rem] md:py-[4rem]"
         style={{
