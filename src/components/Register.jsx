@@ -36,7 +36,7 @@ const Register = () => {
       </div>
 
       {/* Content Section */}
-      <div className="flex flex-col items-center gap-6 px-6 py-[3rem] md:flex-row md:gap-[10rem] md:py-[7rem]">
+      <div className="flex flex-col items-center gap-6 px-4 py-[3rem] md:flex-row md:gap-[10rem] md:px-[3.5rem] md:py-[7rem]">
         {/* Image */}
         <img 
           className="w-full rounded-lg object-cover md:w-1/3" 

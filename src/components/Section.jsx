@@ -14,7 +14,7 @@ const Section = ({ paraHead, paraText, para, arrow, paraShow, group }) => {
   return (
     <section>
       <div
-      className="relative w-full bg-center bg-no-repeat px-4 py-6 md:bg-[url('/line.png')] md:px-[3.5rem] md:py-[4rem]"
+      className="relative w-full bg-center bg-no-repeat px-4 pt-[6rem] md:bg-[url('/line.png')] md:px-[3.5rem] md:py-[8rem]"
       style={{
         backgroundSize: "68% 115%",
         backgroundPosition: "center right",
@@ -62,7 +62,7 @@ const Section = ({ paraHead, paraText, para, arrow, paraShow, group }) => {
       </div>
 
       {/* Card Section */}
-      <div className="px-4 pb-[4rem] md:px-[3.5rem]">
+      <div className="px-4 py-[2rem] md:px-[3.5rem]">
         <Card
           ImgFounder="/founderImage1.png"
           heading="Who Are We?"

@@ -37,7 +37,7 @@ The **Belsoft Landing Page** is a clean and responsive website built to showcase
 - **Bundler/Compiler**: Vite or Webpack (depending on your setup)
 
 ---
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can check out [the Next.js GitHub repository](https://github.com/Ijadele/belsoft_landing_page.git) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
