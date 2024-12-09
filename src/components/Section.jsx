@@ -16,7 +16,7 @@ const Section = ({ paraHead, paraText, para, arrow, paraShow, group }) => {
       <div
       className="relative w-full bg-center bg-no-repeat px-4 pt-[6rem] md:bg-[url('/line.png')] md:px-[3.5rem] md:py-[8rem]"
       style={{
-        backgroundSize: "68% 115%",
+        backgroundSize: "60% 103%",
         backgroundPosition: "center right",
   }}
 >

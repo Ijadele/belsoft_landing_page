@@ -43,10 +43,10 @@ const List = () => {
             >
               {/* Role and Icon */}
               <div className="flex items-center gap-6">
-                <div className="flex h-4 w-4 items-center justify-center rounded-full bg-[#8300FF] text-white md:w-5">
+                <div className="flex h-4 w-4 items-center justify-center rounded-full bg-[#8300FF] text-white">
                   {/* Custom Bullet Icon */}
                 </div>
-                <h3 className="text-lg font-semibold">{serviceItem.role}</h3>
+                <h3 className="text-lg font-semibold md:w-[12rem]">{serviceItem.role}</h3>
               </div>
 
               {/* Text and Image */}
@@ -57,11 +57,11 @@ const List = () => {
                 </p>
 
                 {/* Image */}
-                <div className="ml-4 shrink-0 md:mr-[2rem]">
+                <div className="ml-4 shrink-0 md:mr-[5rem]">
                   <img
                     src={serviceItem.image}
                     alt={`${serviceItem.role} icon`}
-                    className="h-8 w-8"
+                    className="h-10 w-10"
                   />
                 </div>
               </div>

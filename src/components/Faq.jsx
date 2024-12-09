@@ -68,7 +68,7 @@ const Faq = () => {
               />
             </div>
             {activeIndex === index && (
-              <p className="mt-4 text-gray-600">{faqItem.answer}</p>
+              <p className="mt-2 text-left text-[#340066]">{faqItem.answer}</p>
             )}
           </div>
         ))}
